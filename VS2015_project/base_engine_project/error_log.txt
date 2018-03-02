@@ -1,0 +1,69 @@
+ * 09/19/14 23:38:29: Failed loading libpng16-16.dll: Não foi possível encontrar o módulo especificado.
+
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:52:44: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:52:44: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:52:47: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:52:44: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:52:47: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:52:48: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:52:44: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:52:47: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:52:48: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:52:48: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:45: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:45: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:49: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:45: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:49: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:50: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:45: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:49: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:50: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:50: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:45: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:49: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:50: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:50: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:53:52: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:54:40: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/19/14 23:57:53: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/20/14 00:12:49: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/20/14 00:30:06: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/20/14 00:48:00: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 09/20/14 00:50:06: Couldn't open dagos_charset.png
+ * errorOutput called *************************************************************** 
+ * 03/31/15 18:54:05: Couldn't open test_area.png
+ * errorOutput called *************************************************************** 
+ * 07/01/16 22:13:31: Error to load XML file: File was not found
+ * errorOutput called *************************************************************** 

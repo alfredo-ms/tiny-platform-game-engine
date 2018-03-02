@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{03a1e157-cd8f-40e6-91d5-46f7de748bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{d8ca7ecc-8acf-48e2-929d-08f85a22679f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\utils">
+      <UniqueIdentifier>{3490c853-fc5c-4db2-9a52-216a63e24d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\utils">
+      <UniqueIdentifier>{10d587f6-86fb-4c23-abad-b5072dfb0ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\graphics">
+      <UniqueIdentifier>{3b955d07-ba39-48e3-818a-172dd776b8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\graphics">
+      <UniqueIdentifier>{ee3ff92b-daa2-480d-a7fe-0c747b57111f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{0b7f5c21-d6df-42ca-b1e7-44c993fbe07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{b81daca1-f98f-47fd-96eb-9711a3584a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\eobjects">
+      <UniqueIdentifier>{51fcc6ff-f782-484b-a23b-7119baa92442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eobjects">
+      <UniqueIdentifier>{fc783cbc-e068-451a-84a0-b62fb236e067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eobjects\components">
+      <UniqueIdentifier>{2ce15120-a6e6-499c-9c00-1f94f1516165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\eobjects\components">
+      <UniqueIdentifier>{8237dc20-1560-402c-afe3-53039d848ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\eobjects\components\graphics">
+      <UniqueIdentifier>{bded8753-6c65-4124-9ba8-273bfac8b413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collections">
+      <UniqueIdentifier>{26f4b33e-6ea4-4dff-94be-390b0e9fd449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collections">
+      <UniqueIdentifier>{02de4a91-968e-4a5c-a2a6-87d5f61c1d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\collections\images">
+      <UniqueIdentifier>{2093359c-dc42-4f02-b7d5-3b6c3172bcfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\collections\images">
+      <UniqueIdentifier>{0fbf15fe-514c-42cf-b4da-037e0437e6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eobjects\components\graphics">
+      <UniqueIdentifier>{41693db8-fd12-4246-9451-d1dc370f4712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\eobjects\components\collision">
+      <UniqueIdentifier>{5c7ebea8-dfdd-41a9-a37b-fcbb92f8dd59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eobjects\components\collision">
+      <UniqueIdentifier>{ee43f452-d839-4453-9a22-44ceaf7753d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eobjects\components\collision\objects">
+      <UniqueIdentifier>{883a49ec-3218-4ee0-8922-852df7694a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\eobjects\components\collision\objects">
+      <UniqueIdentifier>{eb4151e4-2b98-4fae-9606-fe6a80710a51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\core\error_hdlr.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\core\ibase.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\core\graphics\renderer.cpp">
+      <Filter>Source Files\core\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\core\graphics\window.cpp">
+      <Filter>Source Files\core\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\core\utils\popup.cpp">
+      <Filter>Source Files\core\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\core\utils\time.cpp">
+      <Filter>Source Files\core\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\game\intro.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\game\maingame.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\game\mainmenu.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\game\resources.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\game\playerstate.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\appbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\eobjects\gameobject.cpp">
+      <Filter>Source Files\eobjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\core\graphics\imagetypesupport.cpp">
+      <Filter>Source Files\core\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\core\graphics\view.cpp">
+      <Filter>Source Files\core\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\collections\images\image.cpp">
+      <Filter>Source Files\collections\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\collections\images\imagecollection.cpp">
+      <Filter>Source Files\collections\images</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\eobjects\components\graphics\simplepicture.cpp">
+      <Filter>Source Files\eobjects\components\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\eobjects\components\position.cpp">
+      <Filter>Source Files\eobjects\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\eobjects\components\collision\simplecollision.cpp">
+      <Filter>Source Files\eobjects\components\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\eobjects\components\collision\objects\rect.cpp">
+      <Filter>Source Files\eobjects\components\collision\objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\main.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\core\error_hdlr.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\core\ibase.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\core\typesdescription.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\core\graphics\renderer.hpp">
+      <Filter>Header Files\core\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\core\graphics\window.hpp">
+      <Filter>Header Files\core\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\core\utils\popup.hpp">
+      <Filter>Header Files\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\core\utils\time.hpp">
+      <Filter>Header Files\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\game\intro.hpp">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\game\maingame.hpp">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\game\mainmenu.hpp">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\game\resources.hpp">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\game\playerstate.hpp">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\appbase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\eobjects\gameobject.hpp">
+      <Filter>Header Files\eobjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\eobjects\components\icomponent.hpp">
+      <Filter>Header Files\eobjects\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\core\graphics\imagetypesupport.hpp">
+      <Filter>Header Files\core\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\core\graphics\view.hpp">
+      <Filter>Header Files\core\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\collections\images\image.hpp">
+      <Filter>Header Files\collections\images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\collections\images\imagecollection.hpp">
+      <Filter>Header Files\collections\images</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\collections\icollections.hpp">
+      <Filter>Header Files\collections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\eobjects\components\graphics\ipicture.hpp">
+      <Filter>Header Files\eobjects\components\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\eobjects\components\graphics\simplepicture.hpp">
+      <Filter>Header Files\eobjects\components\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\eobjects\components\position.hpp">
+      <Filter>Header Files\eobjects\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\eobjects\components\collision\icollision.hpp">
+      <Filter>Header Files\eobjects\components\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\eobjects\components\collision\data.hpp">
+      <Filter>Header Files\eobjects\components\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\eobjects\components\collision\simplecollision.hpp">
+      <Filter>Header Files\eobjects\components\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\eobjects\components\collision\objects\iobject.hpp">
+      <Filter>Header Files\eobjects\components\collision\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\eobjects\components\collision\objects\rect.hpp">
+      <Filter>Header Files\eobjects\components\collision\objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+resources/
+build/*
+VS2015_project/base_engine_project/Debug
+VS2015_project/Debug

@@ -1,0 +1,9 @@
+/******************************************************************
+ ********* Features a serem implementados na Engine ***************/
+
+    1. Criar várias mainViews, para possibilitar multiplayer local,
+        por exemplo;
+    2. Verificar a possibilidade, e caso seja poss�vel, implementar
+        a escolha de qual monitor conectado utilizar para a execu��o
+        do jogo, utilizando como padr�o o primeiro monitor 
+        (provavelmente listado como 0);

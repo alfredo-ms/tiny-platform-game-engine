@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\appbase.cpp" />
+    <ClCompile Include="..\..\source\collections\images\image.cpp" />
+    <ClCompile Include="..\..\source\collections\images\imagecollection.cpp" />
+    <ClCompile Include="..\..\source\core\error_hdlr.cpp" />
+    <ClCompile Include="..\..\source\core\graphics\imagetypesupport.cpp" />
+    <ClCompile Include="..\..\source\core\graphics\renderer.cpp" />
+    <ClCompile Include="..\..\source\core\graphics\view.cpp" />
+    <ClCompile Include="..\..\source\core\graphics\window.cpp" />
+    <ClCompile Include="..\..\source\core\ibase.cpp" />
+    <ClCompile Include="..\..\source\core\utils\popup.cpp" />
+    <ClCompile Include="..\..\source\core\utils\time.cpp" />
+    <ClCompile Include="..\..\source\eobjects\components\collision\objects\rect.cpp" />
+    <ClCompile Include="..\..\source\eobjects\components\collision\simplecollision.cpp" />
+    <ClCompile Include="..\..\source\eobjects\components\graphics\simplepicture.cpp" />
+    <ClCompile Include="..\..\source\eobjects\components\position.cpp" />
+    <ClCompile Include="..\..\source\eobjects\gameobject.cpp" />
+    <ClCompile Include="..\..\source\game\intro.cpp" />
+    <ClCompile Include="..\..\source\game\maingame.cpp" />
+    <ClCompile Include="..\..\source\game\mainmenu.cpp" />
+    <ClCompile Include="..\..\source\game\playerstate.cpp" />
+    <ClCompile Include="..\..\source\game\resources.cpp" />
+    <ClCompile Include="..\..\source\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\appbase.hpp" />
+    <ClInclude Include="..\..\source\collections\icollections.hpp" />
+    <ClInclude Include="..\..\source\collections\images\image.hpp" />
+    <ClInclude Include="..\..\source\collections\images\imagecollection.hpp" />
+    <ClInclude Include="..\..\source\core\error_hdlr.hpp" />
+    <ClInclude Include="..\..\source\core\graphics\imagetypesupport.hpp" />
+    <ClInclude Include="..\..\source\core\graphics\renderer.hpp" />
+    <ClInclude Include="..\..\source\core\graphics\view.hpp" />
+    <ClInclude Include="..\..\source\core\graphics\window.hpp" />
+    <ClInclude Include="..\..\source\core\ibase.hpp" />
+    <ClInclude Include="..\..\source\core\typesdescription.hpp" />
+    <ClInclude Include="..\..\source\core\utils\popup.hpp" />
+    <ClInclude Include="..\..\source\core\utils\time.hpp" />
+    <ClInclude Include="..\..\source\eobjects\components\collision\data.hpp" />
+    <ClInclude Include="..\..\source\eobjects\components\collision\icollision.hpp" />
+    <ClInclude Include="..\..\source\eobjects\components\collision\objects\iobject.hpp" />
+    <ClInclude Include="..\..\source\eobjects\components\collision\objects\rect.hpp" />
+    <ClInclude Include="..\..\source\eobjects\components\collision\simplecollision.hpp" />
+    <ClInclude Include="..\..\source\eobjects\components\graphics\ipicture.hpp" />
+    <ClInclude Include="..\..\source\eobjects\components\graphics\simplepicture.hpp" />
+    <ClInclude Include="..\..\source\eobjects\components\icomponent.hpp" />
+    <ClInclude Include="..\..\source\eobjects\components\position.hpp" />
+    <ClInclude Include="..\..\source\eobjects\gameobject.hpp" />
+    <ClInclude Include="..\..\source\game\intro.hpp" />
+    <ClInclude Include="..\..\source\game\maingame.hpp" />
+    <ClInclude Include="..\..\source\game\mainmenu.hpp" />
+    <ClInclude Include="..\..\source\game\playerstate.hpp" />
+    <ClInclude Include="..\..\source\game\resources.hpp" />
+    <ClInclude Include="..\..\source\main.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD5F7067-358A-4C54-B9E1-F91013504AA2}</ProjectGuid>
+    <RootNamespace>base_engine_project</RootNamespace>
+    <ProjectName>base_sdlEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\libs\vstudio\pugixml-1.7\src;C:\libs\vstudio\SDL2_image-2.0.1\include;C:\libs\vstudio\SDL2-2.0.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\libs\vstudio\pugixml-1.7\scripts\vs2015\Win32_Release;C:\libs\vstudio\SDL2_image-2.0.1\lib\x86;C:\libs\vstudio\SDL2-2.0.4\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;pugixml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,4 +1,4 @@
- ========================== TPGE (Tiny Platform Game Engine) v.0.3b =========================
+ ========================== TPGE (Tiny Platform Game Engine) v.0.3c =========================
 
 > Developed by: Alfredo Magnani Sakatauskas
         Copyright (c) 2018 [RetroGameKnights]. All rights reserved.
@@ -12,7 +12,8 @@ Update log:
         access to basic features, like windows management.
 
 **11/01/2016** - Create a project to Visual Studio 2015, SDL 2.0.4 and pugixml 1.7.
-        02/03/2018 - Files updated to first commit in GitHub.
+        
+**02/03/2018** - Files updated to first commit in GitHub.
  
  ==============================================================================================
 
